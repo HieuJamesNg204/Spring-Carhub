@@ -45,10 +45,10 @@ public class Rental {
     private LocalDate actualReturnDate;
 
     @Column
-    private Double returnMileage;
+    private double returnMileage;
 
     @Column
-    private Double totalCost;
+    private double totalCost;
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
