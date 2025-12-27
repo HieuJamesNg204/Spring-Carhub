@@ -24,7 +24,7 @@ public class Payment {
     private Rental rental;
 
     @Column(nullable = false)
-    private double amount;
+    private double amount; // TODO: change double to BigDecimal
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
